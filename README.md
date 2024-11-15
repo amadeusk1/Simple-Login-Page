@@ -10,4 +10,4 @@ This project is a responsive login page with a stylish, modern design. It featur
 - **📏 Compact Design**: All elements are aligned within a single box for a clean, cohesive layout.
 - **📱 Responsive Layout**: The page is centered and adjusts well on various screen sizes.
 
-![Login Page Screenshot](images/screenshot.png "Login Page")
+![Login Page Screenshot]([images/screenshot.png](https://github.com/amadeusk1/Simple-Login-Page/blob/main/preview.JPG) "Login Page")
