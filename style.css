@@ -1,0 +1,115 @@
+/* Background styling */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent; /* Fallback */
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #646c7a, #042750);
+    background-size: cover;
+    z-index: -1;
+}
+
+/* Login box styling */
+.login-container {
+    width: 360px;
+    padding: 30px;
+    background: rgba(56, 51, 134, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    backdrop-filter: blur(10px);
+    color: #fff;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+/* Input group styling for a compact look */
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input-group i {
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    background: none;
+    color: #d1d1d1;
+    width: 100%;
+    font-size: 16px;
+}
+
+/* Options styling */
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.options a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.options a:hover {
+    text-decoration: underline;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #536079;
+    background: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #dddddd;
+}
+
+/* Register link styling */
+.register-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #cc0c0c;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
